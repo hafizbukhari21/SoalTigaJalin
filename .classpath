@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="lib" path="path/to/mysql-connector-java-11.jar"/>
+    <!-- Add any other classpath entries your project needs -->
+</classpath>

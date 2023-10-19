@@ -1,0 +1,13 @@
+KODE CLIENT : JLN                        LAPORAN                               HAL        : 1
+KODE REPORT : ACT-01                  TRANSAKSI PEMBAYARAN BERHASILS           Tanggal    : 19102023
+
+Tanggal             Waktu          Status              Nominal             Admin                  Nominal
+Transaksi           Transaksi      Transaksi           Tagihan                                  Transaksi
+01012023            18:58:17       failed              90000               1000                     91000
+01012023            15:58:17       failed              20000               1000                     21000
+
+                                    * * * SUMMARY TOTAL * * *                     
+                              TOTAL TRANSAKSI          =2
+                              TOTAL NOMINAL TAGIHAN    =110000
+                              TOTAL ADMIN FEE          =2000
+                              TOTAL NOMINAL TRANSAKSI  =112000
