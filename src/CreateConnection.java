@@ -75,8 +75,7 @@ public class CreateConnection {
             
             if(whereCondition.length>0) query = "select*from transaction where "+whereCondition[0]; 
             this.createConnection();
-            ResultSet rs = execute(query);
-            List<Bank> listBank = insertLooping(rs);
+            List<Bank> listBank = insertLooping(execute(query));
             this.closedConnection();
             return listBank;
         }catch (Exception e) {
